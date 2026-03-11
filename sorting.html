@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<title>Sorting Visualizer</title>
+<link rel="stylesheet" href="sorting.css">
+</head>
+
+<body>
+
+<header>
+<h1>Sorting Algorithms</h1>
+<p>Select an algorithm and sort the numbers</p>
+</header>
+
+<section class="container">
+
+<input type="text" id="numbers" placeholder="Enter numbers (example: 5,3,8,1)">
+
+<br><br>
+
+<select id="algorithm">
+<option value="bubble">Bubble Sort</option>
+<option value="selection">Selection Sort</option>
+<option value="insertion">Insertion Sort</option>
+</select>
+
+<br><br>
+
+<button onclick="sortNumbers()">Sort</button>
+
+<h3 id="result"></h3>
+
+</section>
+
+<a href="dashboard.html">
+<button>Back to Dashboard</button>
+</a>
+
+<script src="sorting.js"></script>
+
+</body>
+
+</html>
